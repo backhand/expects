@@ -5,11 +5,8 @@
   "author": "Frederik Hannibal <frederik@backhand.dk>",
   "repository": "git://github.com/backhand/expects",
   "main": "index",
-  "devDependencies": {
-    "expresso": "0.9.2"
-  },
   "scripts": {
-    "test": "expresso"
+    "test": "nodeunit test"
   },
   "engines": { "node": ">= 0.6.2" }
 }
