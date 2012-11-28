@@ -4,9 +4,12 @@
   "version": "0.1.0",
   "author": "Frederik Hannibal <frederik@backhand.dk>",
   "repository": "git://github.com/backhand/expects",
-  "main": "index",
-  "scripts": {
-    "test": "nodeunit test"
+  "main": "./lib/expects",
+  "devDependencies": {
+    "nodeunit": "*"
   },
-  "engines": { "node": ">= 0.6.2" }
+  "scripts": {
+    "test": "node_modules/nodeunit/bin/nodeunit test"
+  },
+  "engines": { "node": ">=0.6.2" }
 }
